@@ -1,0 +1,33 @@
+{
+  "name": "suedlicht/vertrieb",
+  "description": "Vertrieb haendler",
+  "type": "oxideshop-module",
+  "keywords": ["oxid","vertrieb","admin"],
+  "homepage": "https://suedlicht.com",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "suedlicht",
+      "email": "info@suedlicht.com",
+      "homepage": "https://www.suedlicht.com/",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+   
+  "autoload": {
+    "psr-4": {
+      "suedlicht\\vertrieb\\": "../../../source/modules/suedlicht/vertrieb"
+    }
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "suedlicht/vertrieb"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "~6.0"
+    }
+}
